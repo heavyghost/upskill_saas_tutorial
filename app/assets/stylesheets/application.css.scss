@@ -21,6 +21,26 @@ h1, h2, h3{
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav:hover > li > a {
+    color:white;
+    opacity: 0.75;
+}
+
+
+
 .navbar, .home-callout {
     //Built for the community by @_ighosh at uigradients.com
     background: #00c6ff;  /* fallback for old browsers */
