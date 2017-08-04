@@ -29,12 +29,16 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#User Twitter Bootstrap library for front-end UI and layout
+# Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+
+# Use Font Awseome SASS gem for adding icons
+gem 'font-awesome-sass', '~> 4.6.2'
+
 
 group :development, :test do
   gem 'sqlite3'
-  #Use Puma as the app server
+  # Use Puma as the app server
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
