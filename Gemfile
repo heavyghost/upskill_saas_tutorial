@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use sqlite3 as the database for Active Record
@@ -38,7 +37,6 @@ gem 'font-awesome-sass', '~> 4.6.2'
 # Use Hirb for better database table display in console
 gem 'hirb', '0.7.3'
 
-
 group :development, :test do
   gem 'sqlite3'
   # Use Puma as the app server
@@ -54,8 +52,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
 end
-
-
 
 group :production do 
   #Use the PostgreSQL gem for Heroku production servers
