@@ -7,3 +7,10 @@ Memberships
 ActiveRecord
 Parameters
 Substitution
+
+User Profiles
+* Each user should have one profile
+* User should see link to new profile form upon signing up
+* User should be able to creat and view their user profile
+* User profile should have profile picture
+* User should be able to to view all users profile
